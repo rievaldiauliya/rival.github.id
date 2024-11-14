@@ -1,0 +1,50 @@
+/* CSS untuk body dan latar belakang */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffecb3;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* CSS untuk container */
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* CSS untuk judul */
+  .container h1 {
+    color: #ff7043;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* CSS untuk paragraf */
+  .container p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* CSS untuk tombol */
+  .container .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff7043;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .container .btn:hover {
+    background-color: #ff5722;
+  }
+  
